@@ -28,7 +28,7 @@ while True:
             cv2.rectangle(img, (x, y), (x + w, y + h), (0, 0, 255), 2)
 
         cv2.rectangle(img, (90,0),(450,60), (0,255,0),-1)
-        cv2.putText(img, f'Livre: {vagasAbertas} / 69', (95,45), cv2.FONT_HERSHEY_SIMPLEX, 1.5, (255,255,255), 5)
+        cv2.putText(img, f'Livres: {vagasAbertas} / 69', (95,45), cv2.FONT_HERSHEY_SIMPLEX, 1.5, (255,255,255), 5)
 
     print(vagasAbertas)
     cv2.imshow('Video', img)
